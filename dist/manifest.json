@@ -1,0 +1,23 @@
+{
+	"name": "Copy Cloudinary Image Transformations",
+	"description": "Copy image Transformations from a cloudinary image.",
+	"version": "1.0",
+	"manifest_version": 2,
+	"homepage_url": "https://cloudinary.com/",
+	"icons": {
+		"16": "icon/16x16.png",
+		"48": "icon/48x48.png",
+		"128": "icon/128x128.png"
+	},
+	"background": {
+		"scripts": ["./background.js"]
+	},
+	"browser_action": {
+		"default_icon": {
+			"16": "icon/16x16.png",
+			"48": "icon/48x48.png",
+			"128": "icon/128x128.png"
+		}
+	},
+	"permissions": ["activeTab"]
+}
